@@ -1,0 +1,20 @@
+<resources>
+
+    <dimen name="text_size_24_px">12sp</dimen>
+    <dimen name="text_size_26_px">13sp</dimen>
+    <dimen name="text_size_28_px">14sp</dimen>
+    <dimen name="text_size_32_px">16sp</dimen>
+    <dimen name="text_size_12_dp">12dp</dimen>
+
+    <dimen name="text_size_for_title">@dimen/text_size_32_px</dimen>
+    <dimen name="text_size_for_content">@dimen/text_size_26_px</dimen>
+    <dimen name="text_size_for_sub_content">@dimen/text_size_24_px</dimen>
+    <dimen name="navigation_bar_size">50dp</dimen>
+    <dimen name="divider_size">0.5dp</dimen>
+
+    <dimen name="dialog_title_text_size">@dimen/text_size_32_px</dimen>
+    <dimen name="dialog_message_text_size">@dimen/text_size_26_px</dimen>
+    <dimen name="dialog_button_text_size">@dimen/text_size_28_px</dimen>
+    <dimen name="com_dlg_radius">4dp</dimen>
+
+</resources>

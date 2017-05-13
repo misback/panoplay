@@ -1,0 +1,134 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@drawable/bg_activity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/ic_splash</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="SettingItemTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:background">@drawable/bg_list_item_transparent_selector</item>
+    </style>
+
+    <style name="SettingItemTheme.AboutItemTheme">
+        <item name="android:background">@drawable/bg_list_item_white_selector</item>
+    </style>
+
+    <style name="SettingItemTitleTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_for_title</item>
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="SettingSubpageArrowTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_subpage_arrow_right</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="NavigationBarMenuTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_navigationbar_menu_selector</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <!-- 全局弹窗Style -->
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/TRANSPARENT</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->
+        <!-- <item name="android:backgroundDimEnabled">false</item> --><!-- 模糊 -->
+    </style>
+
+    <!-- 全局弹窗根布局Style -->
+    <style name="DialogLayoutTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:background">@drawable/bg_rounded_dialog_white</item>
+    </style>
+
+    <style name="AboutItemTextTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/text_size_for_title</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="FaqPlusTheme">
+        <item name="android:layout_width">7.5dp</item>
+        <item name="android:layout_height">7.5dp</item>
+        <item name="android:src">@drawable/ic_faq_sub_item</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="FaqContentTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_content</item>
+        <item name="android:textSize">@dimen/text_size_for_sub_content</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="FilterItemStyle">
+        <item name="frameColor">@color/com_bg_bright_blue</item>
+        <item name="frameStrokeWidth">2dp</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textColor">@color/com_text_white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchParentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContentStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

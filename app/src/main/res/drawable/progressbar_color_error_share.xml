@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景  gradient是渐变,corners定义的是圆角 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dp" />
+            <solid android:color="@color/YELLOW" />
+        </shape>
+    </item>
+    <!--&lt;!&ndash; 进度条 &ndash;&gt;
+    <item android:id="@android:id/progress">
+            <clip>
+                    <shape>
+                            <corners android:radius="5dp" />
+                            <solid android:color="@color/progressbar_upload_share_bg_pink_red" />
+                    </shape>
+            </clip>
+    </item>-->
+</layer-list>
